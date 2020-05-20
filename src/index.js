@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
+import RMCharacter from './components/pages/RMCharacters/RMCharacters'
+import './index.scss'
 const Index = () =>{
-    return <div id="root">Hello World!</div>
+    return <RMCharacter />
 }
-export default function App(){
-    return ReactDOM.render(<Index />, document.getElementById("root"))
-}
+ReactDOM.render(<Index />, document.getElementById("root"))

@@ -1,0 +1,11 @@
+@import '../../../theme/theme.scss';
+.container{
+    display: flex;
+}
+.content{
+    margin-left: 0.5em;
+    background-color: $primary-color;
+    box-shadow: -4px 2px 5px 0px rgba(0,0,0,0.75);
+    width: 100vw;
+    padding-bottom: 1em;
+}

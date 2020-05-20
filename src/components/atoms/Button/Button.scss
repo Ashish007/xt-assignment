@@ -1,0 +1,10 @@
+@import '../../../theme/theme.scss';
+.button-search{
+    outline: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: $secondary-color;
+    margin-left: 2em;
+}
