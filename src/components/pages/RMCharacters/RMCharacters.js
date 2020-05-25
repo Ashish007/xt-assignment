@@ -82,7 +82,7 @@ export default function RMCharacter() {
   };
   return (
     <div className="container">
-      {/* {width > breakPoint ? (
+      {width > breakPoint ? (
         <FilterTemplate
           res={res}
           page={page}
@@ -90,7 +90,7 @@ export default function RMCharacter() {
           types={filterCategories}
           filterArr={filterArr}
         />
-      ) : null} */}
+      ) : null}
       <div className="content">
         {width > breakPoint ? null : (
           <FilterTemplate
